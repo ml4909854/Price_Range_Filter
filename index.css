@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#heading-div{
+    font-family: cursive;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+#productList{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+
+}
+#productList>div{
+    box-shadow: 5px 2px 5px rgba(0 , 0, 0, 0.3);
+    padding: 20px;
+    
+}
